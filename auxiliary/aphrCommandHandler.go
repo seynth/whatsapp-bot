@@ -2,7 +2,6 @@ package auxiliary
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"strings"
 
@@ -26,7 +25,6 @@ func AphrCommandHandler(aphr *whatsmeow.Client, evt *events.Message) {
 			mp4Bytes := make(chan []byte)
 			defer close(mp4Bytes)
 
-			fmt.Println(extendedMsg)
 			if quotedMsg := extendedMsg.ContextInfo.GetQuotedMessage(); quotedMsg.StickerMessage != nil {
 
 				isAnim := quotedMsg.StickerMessage.IsAnimated
