@@ -1,11 +1,10 @@
 # Aphrodite
 
-
 ### Requirements
 
 - [FFMPEG](https://www.ffmpeg.org/)
 
-This is whatsapp bot that can convert image/video to sticker and vice versa. First install ffmpeg to your computer to start using this bot.
+This is whatsapp bot that can convert image/video to sticker and vice versa. First install ffmpeg to your computer or server to start using this bot.
 
 ```
 git clone https://github.com/seynth/whatsapp-bot.git
@@ -14,8 +13,11 @@ go mod tidy
 go run .
 ```
 
+### Scan qr when it show on your terminal.
 
-Then you need to scan qr-code to be able to use this bot, once the prompt say `Bot ready` you can go ahead and type some command to start using it.
+![Scan qr code to use the bot](/assets/scan-qr.jpg)
+
+Once the prompt say `Aphrodite ready` you can go ahead and type some command to start using it.
 
 ### Available command
 
@@ -25,5 +27,6 @@ Then you need to scan qr-code to be able to use this bot, once the prompt say `B
 
 > [!CAUTION]
 > Currently this bot does not support converting animated sticker to video
+
 
 

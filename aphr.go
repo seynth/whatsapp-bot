@@ -45,7 +45,7 @@ func main() {
 
 	if client.Store.ID == nil {
 		qrc, _ := client.GetQRChannel(context.Background())
-		fmt.Println("[Aphrodite b] Connecting to server . . .")
+		fmt.Println("[Aphrodite] Connecting to server . . .")
 		err := client.Connect()
 		if err != nil {
 			panic(err)
@@ -60,7 +60,7 @@ func main() {
 				fmt.Println("login event: ", e.Event)
 			}
 		}
-		fmt.Println("Bot ready . . .")
+		fmt.Println("Aphrodite ready . . .")
 	} else {
 		fmt.Println("[Aphrodite] Connecting to server . . .")
 		errClient := client.Connect()
