@@ -1,3 +1,5 @@
 *.db
 *.db-journal
 *.sum
+
+build/   
