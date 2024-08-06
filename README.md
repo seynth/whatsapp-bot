@@ -17,7 +17,7 @@ go run .
 ### Scan qr when it show on your terminal.
 
 
-![Scan qr code to use the bot](/assets/scan-qr.jpg)
+![Scan qr code to use the bot](/assets/images/scan-qr.jpg)
 
 Once the prompt say `Aphrodite ready` you can go ahead and type some command to start using it.
 
