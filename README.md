@@ -21,11 +21,21 @@ go run .
 
 Once the prompt say `Aphrodite ready` you can go ahead and type some command to start using it.
 
-### Available command
+## Available command
 
-- `#i2s` - image to sticker (with image attachment)
-- `#v2s` - video to sticker (with video attachment)
-- `#s2i` - sticker to image (reply to a sticker)
+### `#i2s` - image to sticker (with image attachment)
+
+https://github.com/user-attachments/assets/6d3df877-3d24-42af-bec5-67e1939bef64
+
+### `#v2s` - video to sticker (with video attachment)
+
+https://github.com/user-attachments/assets/105ea3b7-20cc-4029-97bc-31656f8d169c
+
+### `#s2i` - sticker to image (reply to a sticker)
+
+https://github.com/user-attachments/assets/db04b818-96e5-4868-a970-ef4983a1dd95
+
+
 
 > [!CAUTION]
 > Currently this bot does not support convert animated sticker to video
